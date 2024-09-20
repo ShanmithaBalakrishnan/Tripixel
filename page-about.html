@@ -22,10 +22,10 @@
     <link type="text/css" rel="stylesheet" href="css/responsive.css" />
 
     <link type="text/css" rel="stylesheet" href="css/slider.css" />
-    
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
-   
+
 
 
     <!-- Favicon -->
@@ -108,8 +108,51 @@
                             discuss and create your photo portfolio in comfortable and professional atmosphere.</p>
                     </div>
                 </div><!-- .anita-grid -->
-                
+
             </section>
+
+            <!-- carousel -->
+
+            <section class="brand-area">
+                <div class="container">
+                    <!-- Add a new container element with 70% width -->
+                    <div class="logo-container">
+                        <!-- Invisible box where logos will scroll -->
+                        <div class="brand-logos">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="logo">
+                                            <img src="img/brand/img-s-23.webp" alt="logo">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="logo">
+                                            <img src="img/brand/img-s-23.webp" alt="logo">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="logo">
+                                            <img src="img/brand/img-s-23.webp" alt="logo">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="logo">
+                                            <img src="img/brand/img-s-23.webp" alt="logo">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="logo">
+                                            <img src="img/brand/img-s-23.webp" alt="logo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
             <!-- Section: Counters -->
             <section class="anita-section">
@@ -254,51 +297,6 @@
                 <!-- .anita-toggles-wrap -->
             </section>
 
-
-            <!-- carousel -->
-
-            <section class="brand-area">
-                <div class="container">
-                  <!-- Add a new container element with 70% width -->
-                  <div class="logo-container">
-                    <!-- Invisible box where logos will scroll -->
-                    <div class="brand-logos">
-                      <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <div class="logo">
-                              <img src="img/brand/img-s-23.webp" alt="logo">
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="logo">
-                              <img src="img/brand/img-s-23.webp" alt="logo">
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="logo">
-                              <img src="img/brand/img-s-23.webp" alt="logo">
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="logo">
-                              <img src="img/brand/img-s-23.webp" alt="logo">
-                            </div>
-                          </div>
-                          <div class="swiper-slide">
-                            <div class="logo">
-                              <img src="img/brand/img-s-23.webp" alt="logo">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              
-              
-
             <!-- Section: Get in Touch  -->
             <section class="anita-section">
                 <div class="anita-cta" data-aos="fade-up">
@@ -331,37 +329,37 @@
     <script>
         // Initialize Swiper
         const swiper = new Swiper('.swiper-container', {
-          slidesPerView: 'auto', // Let Swiper calculate slides automatically based on the box width
-          spaceBetween: 20, // Space between slides
-          loop: true, // Loop the slides
-          autoplay: {
-            delay: 2500, // Auto-scroll delay
-            disableOnInteraction: false,
-          },
-          breakpoints: {
-            500:{
-                slidesPerView: 2, // Number of slides on extra small screens
+            slidesPerView: 'auto', // Let Swiper calculate slides automatically based on the box width
+            spaceBetween: 20, // Space between slides
+            loop: true, // Loop the slides
+            autoplay: {
+                delay: 2500, // Auto-scroll delay
+                disableOnInteraction: false,
             },
-            767: {
-              slidesPerView: 4, // Number of slides on smaller screens
+            breakpoints: {
+                500: {
+                    slidesPerView: 2, // Number of slides on extra small screens
+                },
+                767: {
+                    slidesPerView: 4, // Number of slides on smaller screens
+                },
+                991: {
+                    slidesPerView: 3, // Number of slides on medium screens
+                },
+                1200: {
+                    slidesPerView: 4, // Number of slides on larger screens
+                },
             },
-            991: {
-              slidesPerView: 3, // Number of slides on medium screens
-            },
-            1200: {
-              slidesPerView: 4, // Number of slides on larger screens
-            },
-          },
         });
-      </script>
-      
-    
-     
+    </script>
+
+
+
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/aos.min.js"></script>
     <script src="js/core.js"></script>
     <script src="./js/slider.js"></script>
-    
+
 </body>
 
 </html>
