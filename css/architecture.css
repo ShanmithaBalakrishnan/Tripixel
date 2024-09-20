@@ -1,18 +1,18 @@
-.anita-justified-grid {
+.anita1-justified-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three equal columns */
     gap: 10px; /* Adds space between images */
     justify-items: center;
 }
 
-.anita-justified-grid a img {
+.anita1-justified-grid a img {
     width: 100%; /* Ensures the images take full width of their grid cell */
     height: 600px; /* Maintains the aspect ratio */
     object-fit: cover;
     border-radius: 10px;
 }
 
-.anita-justified-grid a {
+.anita1-justified-grid a {
     text-decoration: none; /* Removes underline from links */
 }
 
